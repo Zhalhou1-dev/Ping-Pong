@@ -13,3 +13,6 @@ canvas.parent("MyCanvas");
 function draw(){
  image(video,0,0,500,300);
 }
+function modelLoaded(){
+    console.log("modelLoaded");
+}

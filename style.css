@@ -1,25 +1,41 @@
-body
+
+.heading
 {
-text-align: center;
+width: 100%;
+text-align: left;
 }
 .heading h3{
+    display: inline;
+}
+
+.heading button{
+    float: right;
+    border: 1px solid white;
+}
+
+#start ,#status, #restart
+{
+font-size: 22px;
+}
+
+.modal-dialog
+{
+    width: 70%;
+}
+.modal-body
+{
     text-align: left;
+    font-size: 20px;
 }
-.heading{
-    text-align: right;
-    width: 100%;
+h4
+{
+   background-color: grey;
+   color:white;
+   line-height: 2;
 }
-canvas{
-    width: 300px;
-    height: 200px;
-    box-shadow: 5px 5px 5px solid white;
-    
-}
-.copy_right_footer{
-    position: fixed;
-    bottom: 0;
-    text-align: center;
-    background-color: grey;
-    color: lavender;
-    width: 100%;
-}
+canvas 
+  {
+      border:3px solid white;
+      border-radius: 20px;
+      box-shadow:  5px 5px 5px white;
+  }
